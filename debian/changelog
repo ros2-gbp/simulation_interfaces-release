@@ -1,0 +1,36 @@
+ros-rolling-simulation-interfaces (2.0.0-1noble) noble; urgency=high
+
+  Add support for managing simulation worlds #4 <https://github.com/ros-simulation/simulation_interfaces/issues/4>
+  * Contributors: Ayush Ghosh <mailto:ayushg@nvidia.com>
+  * Co-authored-by: Martin Pecka <mailto:peci1@seznam.cz>
+  * Co-authored-by: Adam Dąbrowski <mailto:adam.dabrowski@robotec.ai>
+  Documentation fixes
+  * Contributors: fred-labs <mailto:fred-labs@mailbox.org>, Arjo Chakravarty <mailto:arjo129@gmail.com>
+
+ -- Adam Dabrowski <adam.dabrowski@robotec.ai>  Mon, 28 Jul 2025 22:00:00 -0000
+
+ros-rolling-simulation-interfaces (1.0.1-1noble) noble; urgency=high
+
+  * Add missing action_msgs dependency to package.xml #10 <https://github.com/ros-simulation/simulation_interfaces/issues/10>
+  * Added error code to SetEntityState.srv (#8 <https://github.com/ros-simulation/simulation_interfaces/issues/8>)
+  * Contributors: Adam Dąbrowski, Mateusz Żak, Michał Pełka
+
+ -- Adam Dabrowski <adam.dabrowski@robotec.ai>  Thu, 15 May 2025 22:00:00 -0000
+
+ros-rolling-simulation-interfaces (1.0.0-1noble) noble; urgency=high
+
+  Initial release of the simulation_interfaces package - a new Standard ROS 2 interfaces for interacting with simulators.
+  The standard defines highly useful features such as spawning robots and other objects, moving things around for testing, stepping through simulation and querying the virtual world for ground truth data. It is supportive of automation and scenario-based testing.
+  * Contributors: Adam Dąbrowski <mailto:adam.dabrowski@robotec.ai>, Addisu Z. Taddese <mailto:addisu@openrobotics.org>
+  * Co-authored-by: Martin Pecka <mailto:peci1@seznam.cz>
+  * Co-authored-by: Steve Peters <mailto:computersthatmove@gmail.com>
+  * Co-authored-by: David V. Lu!! <mailto:davidvlu@gmail.com>
+  * Co-authored-by: Addisu Z. Taddese <mailto:addisu@openrobotics.org>
+  * Co-authored-by: Tully Foote <mailto:tully.foote@gmail.com>
+  * Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+  * Co-authored-by: Michał Pełka <mailto:michal.pelka@robotec.ai>
+  * Co-authored-by: Paweł Liberadzki <mailto:pawel.liberadzki@gmail.com>
+
+ -- Adam Dabrowski <adam.dabrowski@robotec.ai>  Tue, 15 Apr 2025 22:00:00 -0000
+
+
