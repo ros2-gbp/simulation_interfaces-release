@@ -2,6 +2,22 @@
 Changelog for package simulation_interfaces
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.0 (2025-07-29)
+------------------
+Add support for managing simulation worlds `#4 <https://github.com/ros-simulation/simulation_interfaces/issues/4>`_
+* Contributors: Ayush Ghosh <ayushg@nvidia.com>
+* Co-authored-by: Martin Pecka <peci1@seznam.cz>
+* Co-authored-by: Adam Dąbrowski <adam.dabrowski@robotec.ai>
+
+Documentation fixes
+* Contributors: fred-labs <fred-labs@mailbox.org>, Arjo Chakravarty <arjo129@gmail.com>
+
+1.0.1 (2025-05-16)
+------------------
+* Add missing `action_msgs` dependency to package.xml `#10 <https://github.com/ros-simulation/simulation_interfaces/issues/10>`_
+* Added error code to SetEntityState.srv (`#8 <https://github.com/ros-simulation/simulation_interfaces/issues/8>`_)
+* Contributors: Adam Dąbrowski, Mateusz Żak, Michał Pełka
+
 1.0.0 (2025-04-16)
 ------------------
 Initial release of the simulation_interfaces package - a new Standard ROS 2 interfaces for interacting with simulators.
