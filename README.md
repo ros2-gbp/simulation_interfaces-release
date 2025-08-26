@@ -1,3 +1,26 @@
+## simulation_interfaces (humble) - 2.0.0-2
+
+The packages in the `simulation_interfaces` repository were released into the `humble` distro by running `/usr/bin/bloom-release --ros-distro humble simulation_interfaces` on `Tue, 26 Aug 2025 13:01:56 -0000`
+
+The `simulation_interfaces` package was released.
+
+Version of package(s) in repository `simulation_interfaces`:
+
+- upstream repository: https://github.com/ros-simulation/simulation_interfaces.git
+- release repository: https://github.com/ros2-gbp/simulation_interfaces-release.git
+- rosdistro version: `1.0.1-1`
+- old version: `2.0.0-1`
+- new version: `2.0.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## simulation_interfaces (rolling) - 2.0.0-1
 
 The packages in the `simulation_interfaces` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling simulation_interfaces` on `Tue, 29 Jul 2025 08:57:24 -0000`
