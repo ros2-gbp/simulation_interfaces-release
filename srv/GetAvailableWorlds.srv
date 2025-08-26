@@ -4,7 +4,7 @@
 # default sources can't be accessed (e.g. due to connectivity issues), the
 # DEFAULT_SOURCES_FAILED error result code will be returned.
 
-string[] additional_sources             # Optional field for additional sources (local or remote) to search, 
+string[] additional_sources             # Optional field for additional sources (local or remote) to search,
                                         # specified as standard URIs if possible.
 
 TagsFilter filter                       # Only get worlds with tags matching the filter. The filter is optional and matches everything by default.
