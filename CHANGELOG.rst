@@ -2,20 +2,29 @@
 Changelog for package simulation_interfaces
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.6.0 (2026-04-07)
+2.1.0 (2026-04-07)
 ------------------
-* Add ``SpawnEntities`` service for spawning multiple entities in a single call (`#20 <https://github.com/ros-simulation/simulation_interfaces/issues/20>`_, `#25 <https://github.com/ros-simulation/simulation_interfaces/issues/25>`_) (`#24 <https://github.com/ros-simulation/simulation_interfaces/issues/24>`_)
+* Rename ``level_resource`` to ``world_resource`` in ``LoadWorld`` and ``WorldResource`` for consistent terminology (`#13 <https://github.com/ros-simulation/simulation_interfaces/issues/13>`_)
+* Add ``SpawnEntities`` service for spawning multiple entities in a single call (`#20 <https://github.com/ros-simulation/simulation_interfaces/issues/20>`_, `#25 <https://github.com/ros-simulation/simulation_interfaces/issues/25>`_)
+* Make setting entity values optional via boolean flags in ``SetEntityState`` (`#21 <https://github.com/ros-simulation/simulation_interfaces/issues/21>`_)
+* Add links to example implementations in README (`#19 <https://github.com/ros-simulation/simulation_interfaces/issues/19>`_)
+* Contributors: Adam Dąbrowski, Luca Della Vedova, Mateusz Żak, Michał Pełka, Norbert Prokopiuk
 
-* Contributors: Michał Pełka <michal.pelka@robotec.ai>, Mateusz Żak <mateusz.zak@robotec.ai>
-
-1.3.0 (2025-09-15)
+2.0.0 (2025-07-29)
 ------------------
-Add support for managing simulation worlds (`#4 <https://github.com/ros-simulation/simulation_interfaces/issues/4>`_) ( `#17 <https://github.com/ros-simulation/simulation_interfaces/issues/17>`_)
-
+Add support for managing simulation worlds `#4 <https://github.com/ros-simulation/simulation_interfaces/issues/4>`_
 * Contributors: Ayush Ghosh <ayushg@nvidia.com>
 * Co-authored-by: Martin Pecka <peci1@seznam.cz>
 * Co-authored-by: Adam Dąbrowski <adam.dabrowski@robotec.ai>
-* Co-authored-by: Mateusz Żak <mateusz.zak@robotec.ai>
+
+Documentation fixes
+* Contributors: fred-labs <fred-labs@mailbox.org>, Arjo Chakravarty <arjo129@gmail.com>
+
+1.0.1 (2025-05-16)
+------------------
+* Add missing `action_msgs` dependency to package.xml `#10 <https://github.com/ros-simulation/simulation_interfaces/issues/10>`_
+* Added error code to SetEntityState.srv (`#8 <https://github.com/ros-simulation/simulation_interfaces/issues/8>`_)
+* Contributors: Adam Dąbrowski, Mateusz Żak, Michał Pełka
 
 1.0.0 (2025-04-16)
 ------------------
