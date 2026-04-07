@@ -1,3 +1,26 @@
+## simulation_interfaces (kilted) - 1.6.0-1
+
+The packages in the `simulation_interfaces` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted simulation_interfaces` on `Tue, 07 Apr 2026 11:28:01 -0000`
+
+The `simulation_interfaces` package was released.
+
+Version of package(s) in repository `simulation_interfaces`:
+
+- upstream repository: https://github.com/ros-simulation/simulation_interfaces.git
+- release repository: https://github.com/ros2-gbp/simulation_interfaces-release.git
+- rosdistro version: `1.3.0-1`
+- old version: `1.3.0-1`
+- new version: `1.6.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## simulation_interfaces (jazzy) - 1.5.0-1
 
 The packages in the `simulation_interfaces` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy --track jazzy simulation_interfaces` on `Tue, 07 Apr 2026 11:26:42 -0000`
