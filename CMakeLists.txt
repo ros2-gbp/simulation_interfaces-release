@@ -14,7 +14,6 @@ find_package(builtin_interfaces REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(action_msgs REQUIRED)
 
 set(msg_files
     "msg/Bounds.msg"
@@ -67,7 +66,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
   ${action_files}
-  DEPENDENCIES builtin_interfaces std_msgs geometry_msgs action_msgs
+  DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
   ADD_LINTER_TESTS
 )
 
