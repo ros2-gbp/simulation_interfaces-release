@@ -2,21 +2,21 @@
 Changelog for package simulation_interfaces
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.5.1 (2026-04-23)
+1.6.1 (2026-04-23)
 ------------------
-* Added missing INVALID_POSE error code (`#28 <https://github.com/ros-simulation/simulation_interfaces/issues/28>`_)
+Added missing INVALID_POSE error code (`#27 <https://github.com/ros-simulation/simulation_interfaces/issues/27>`_)
 
 * Contributors: Norbert Prokopiuk
 
-1.5.0 (2026-04-07)
+1.6.0 (2026-04-07)
 ------------------
-* Add ``SpawnEntities`` service for spawning multiple entities in a single call (`#20 <https://github.com/ros-simulation/simulation_interfaces/issues/20>`_, `#25 <https://github.com/ros-simulation/simulation_interfaces/issues/25>`_) (`#23 <https://github.com/ros-simulation/simulation_interfaces/issues/23>`_)
+* Add ``SpawnEntities`` service for spawning multiple entities in a single call (`#20 <https://github.com/ros-simulation/simulation_interfaces/issues/20>`_, `#25 <https://github.com/ros-simulation/simulation_interfaces/issues/25>`_) (`#24 <https://github.com/ros-simulation/simulation_interfaces/issues/24>`_)
 
 * Contributors: Michał Pełka <michal.pelka@robotec.ai>, Mateusz Żak <mateusz.zak@robotec.ai>
 
-1.2.0 (2025-09-15)
+1.3.0 (2025-09-15)
 ------------------
-* Add support for managing simulation worlds (`#4 <https://github.com/ros-simulation/simulation_interfaces/issues/4>`_) ( `#16 <https://github.com/ros-simulation/simulation_interfaces/issues/16>`_)
+Add support for managing simulation worlds (`#4 <https://github.com/ros-simulation/simulation_interfaces/issues/4>`_) ( `#17 <https://github.com/ros-simulation/simulation_interfaces/issues/17>`_)
 
 * Contributors: Ayush Ghosh <ayushg@nvidia.com>
 * Co-authored-by: Martin Pecka <peci1@seznam.cz>
